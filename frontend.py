@@ -77,7 +77,7 @@ else:
     def distance(lat, lon, latlon_value, dystans, percent):
 
         api_url = "https://api.tomtom.com/routing/1/calculateRoute/"
-        api_key = 'qroZAaD3sOYGrQP9RgfyCcx8YMHz7uxP'
+        api_key = ''
         distance_values = []
         i = 0
         percent_cell = st.empty()
